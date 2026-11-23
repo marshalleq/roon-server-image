@@ -50,7 +50,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             type=raw,value=latest
-            type=raw,value=debian-12
+            type=raw,value=debian-13
             type=raw,value={{date 'YYYYMMDD'}}
             type=sha
 

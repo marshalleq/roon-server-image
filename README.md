@@ -6,7 +6,7 @@ This is an independent project and is not affiliated with Roon Labs. The image d
 
 Image: `ghcr.io/marshalleq/roon-server-image`
 
-Tags: `latest` and `debian-12` (the newest build), a dated tag such as `20261123`, and `sha-<commit>`. Use a dated tag if you want to go back to an earlier build.
+Tags: `latest` and `debian-13` (the newest build), a dated tag such as `20261123`, and `sha-<commit>`. Use a dated tag if you want to go back to an earlier build.
 
 ## Running it
 

@@ -1,0 +1,22 @@
+# Weekly version updates. Minor and patch bumps are grouped into one PR per ecosystem;
+# major bumps arrive as separate PRs and are never auto-merged.
+# Security updates are raised separately by GitHub as soon as an advisory lands.
+# The Debian packages inside the image are not tracked here: the weekly no-cache rebuild
+# in build.yml picks those up.
+version: 2
+updates:
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      docker-minor-patch:
+        update-types: [minor, patch]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions-minor-patch:
+        update-types: [minor, patch]

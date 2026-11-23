@@ -1,4 +1,4 @@
-FROM debian:12-slim
+FROM debian:13-slim
 
 LABEL org.opencontainers.image.title="roon-server-image" \
       org.opencontainers.image.description="Debian base for running Roon Server in a container. Roon itself is downloaded on first run." \
